@@ -1,0 +1,299 @@
+body {
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;-webkit-font-smoothing: antialiased;-ms-font-smoothing: antialiased;
+overflow-x: hidden;font-size: 18px;font-weight:400;font-family: 'Mulish';-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;-ms-box-sizing: border-box;-o-box-sizing: border-box;box-sizing: border-box;
+margin: 0px;padding: 0px;}
+
+.container-fluid{padding: 0 4%;}
+figure{margin: 0px;}
+
+/*-------- Lemonada fonts --------*/
+
+@font-face {
+  font-family: 'Lemonada';
+  src: url('../fonts/Lemonada-Light.woff2') format('woff2'), url('../fonts/Lemonada-Light.woff') format('woff');
+  font-weight: 300; font-style: normal; font-display: swap;}
+
+@font-face {
+  font-family: 'Lemonada';
+  src: url('../fonts/Lemonada-Bold.woff2') format('woff2'),url('../fonts/Lemonada-Bold.woff') format('woff');
+font-weight: bold;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Lemonada';
+  src: url('../fonts/Lemonada-Medium.woff2') format('woff2'), url('../fonts/Lemonada-Medium.woff') format('woff');
+  font-weight: 500;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Lemonada';
+  src: url('../fonts/Lemonada-Regular.woff2') format('woff2'), url('../fonts/Lemonada-Regular.woff') format('woff');
+  font-weight: normal;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Lemonada';
+  src: url('../fonts/Lemonada-SemiBold.woff2') format('woff2'), url('../fonts/Lemonada-SemiBold.woff') format('woff');
+  font-weight: 600;font-style: normal;font-display: swap;}
+
+
+
+/*--------------------------
+  01 Cormorant fonts
+----------------------------*/
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-BoldItalic.woff') format('woff'),url('../fonts/Cormorant-BoldItalic.ttf') format('truetype');
+  font-weight: bold;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Italic.woff') format('woff'), url('../fonts/Cormorant-Italic.ttf') format('truetype');
+  font-weight: normal;font-style: italic; font-display: swap;}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Bold.woff') format('woff'),url('../fonts/Cormorant-Bold.ttf') format('truetype');
+  font-weight: bold;font-style: normal; font-display: swap;}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Light.woff') format('woff'), url('../fonts/Cormorant-Light.ttf') format('truetype');
+  font-weight: 300;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-LightItalic.woff') format('woff'),url('../fonts/Cormorant-LightItalic.ttf') format('truetype');
+  font-weight: 300;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Medium.woff') format('woff'),url('../fonts/Cormorant-Medium.ttf') format('truetype');
+  font-weight: 500;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-MediumItalic.woff') format('woff'),url('../fonts/Cormorant-MediumItalic.ttf') format('truetype');
+  font-weight: 500;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-SemiBold.woff') format('woff'),url('../fonts/Cormorant-SemiBold.ttf') format('truetype');
+  font-weight: 600; font-style: normal; font-display: swap;}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Regular.woff') format('woff'), url('../fonts/Cormorant-Regular.ttf') format('truetype');
+  font-weight: normal;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-SemiBoldItalic.woff') format('woff'),url('../fonts/Cormorant-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;font-style: italic;font-display: swap;}
+
+
+/*-----------------------
+02  Mulish fonts
+-----------------------*/
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-BlackItalic.woff') format('woff'),url('../fonts/Mulish-BlackItalic.ttf') format('truetype');
+  font-weight: 900;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-Bold.woff') format('woff'),url('../fonts/Mulish-Bold.ttf') format('truetype');
+  font-weight: bold;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-Black.woff') format('woff'),url('../fonts/Mulish-Black.ttf') format('truetype');
+  font-weight: 900;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-ExtraBold.woff') format('woff'),url('../fonts/Mulish-ExtraBold.ttf') format('truetype');
+  font-weight: bold;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-BoldItalic.woff') format('woff'), url('../fonts/Mulish-BoldItalic.ttf') format('truetype');
+  font-weight: bold;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-ExtraLight.woff') format('woff'), url('../fonts/Mulish-ExtraLight.ttf') format('truetype');
+  font-weight: 200;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-Italic.woff') format('woff'), url('../fonts/Mulish-Italic.ttf') format('truetype');
+  font-weight: normal;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-ExtraLightItalic.woff') format('woff'), url('../fonts/Mulish-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-ExtraBoldItalic.woff') format('woff'),url('../fonts/Mulish-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-MediumItalic.woff') format('woff'), url('../fonts/Mulish-MediumItalic.ttf') format('truetype');
+  font-weight: 500;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-Regular.woff') format('woff'),url('../fonts/Mulish-Regular.ttf') format('truetype');
+  font-weight: normal;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-Light.woff') format('woff'),url('../fonts/Mulish-Light.ttf') format('truetype');
+  font-weight: 300;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-SemiBold.woff') format('woff'),url('../fonts/Mulish-SemiBold.ttf') format('truetype');
+  font-weight: 600;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-Medium.woff') format('woff'),url('../fonts/Mulish-Medium.ttf') format('truetype');
+  font-weight: 500;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-LightItalic.woff') format('woff'),url('../fonts/Mulish-LightItalic.ttf') format('truetype');
+  font-weight: 300;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-SemiBoldItalic.woff') format('woff'),url('../fonts/Mulish-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;font-style: italic;font-display: swap;}
+
+/*-----------------------
+03  Crimson Text 
+-----------------------*/
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('../fonts/CrimsonText-BoldItalic.woff') format('woff'), url('../fonts/CrimsonText-BoldItalic.ttf') format('truetype');
+  font-weight: bold; font-style: italic; font-display: swap;}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('../fonts/CrimsonText-Regular.woff') format('woff'), url('../fonts/CrimsonText-Regular.ttf') format('truetype');
+  font-weight: normal; font-style: normal; font-display: swap;}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('../fonts/CrimsonText-SemiBold.woff') format('woff'), url('../fonts/CrimsonText-SemiBold.ttf') format('truetype');
+  font-weight: 600; font-style: normal; font-display: swap;}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('../fonts/CrimsonText-SemiBoldItalic.woff') format('woff'), url('../fonts/CrimsonText-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;font-style: italic;font-display: swap;}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('../fonts/CrimsonText-Bold.woff') format('woff'), url('../fonts/CrimsonText-Bold.ttf') format('truetype');
+  font-weight: bold;font-style: normal;font-display: swap;}
+
+@font-face {
+  font-family: 'Crimson Text';
+  src: url('../fonts/CrimsonText-Italic.woff') format('woff'), url('../fonts/CrimsonText-Italic.ttf') format('truetype');
+  font-weight: normal;font-style: italic;font-display: swap;}
+
+
+
+article,aside,details,figcaption,
+figure,footer,header,hgroup,
+menu,nav,
+section { display: block;}
+a{transition: all 0.3s linear;}
+
+/*========================
+  form fill section
+======================== */
+textarea {height: 110px; resize: none; }
+.form-control,select,
+textarea,input[type="text"],input[type="email"],
+input[type="password"],input {border-radius: 0;box-shadow: none;-moz-box-shadow: none;
+-webkit-appearance: none;-webkit-box-shadow: none;padding: 14px 15px;font-size: 18px;
+height: auto;width: 100%;line-height: normal;
+border: 1px solid #ddd;outline: none;-webkit-appearance: none;-moz-appearance: none;-ms-appearance: none;
+-o-appearance: none;appearance: none;}
+
+input[type="submit"],
+input[type="button"] {  cursor: pointer;  -webkit-appearance: none;}
+
+::-webkit-input-placeholder {opacity: 1; color: #777 !important;}
+::-moz-placeholder {opacity: 1; color: #777 !important;}
+::-ms-placeholder {opacity: 1; color: #777 !important;}
+::-o-input-placeholder {opacity: 1; color: #777 !important; }
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder { color: #777 !important;}
+
+input::-moz-placeholder,
+textarea::-moz-input-placeholder { color: #777 !important;}
+
+input::-ms-placeholder,
+textarea::-ms-input-placeholder {color: #777 !important;}
+
+input::-o-input-placeholder,
+textarea::-o-input-placeholder {color: #777 !important;}
+
+/*-------------------------------------
+         Typography 
+-------------------------------------*/
+h1, h2, h3, h4, h5, h6 { margin: 0px; font-family: 'Cormorant'; font-weight: 700;}
+
+
+h1,h2,h3{text-transform: capitalize; text-transform: uppercase;}
+
+h1 {font-size:34px; margin-bottom: 25px;line-height: 1.1;}
+h2 {font-size: 32px; margin-bottom: 10px; color: #000; }
+h3 {font-size: 32px; margin-bottom: 10px; color: #000; }
+h4{font-size: 28px; margin-bottom: 15px;font-weight: 500; }
+h5{font-size:26px;  margin-bottom: 30px;font-weight: 500;}
+h6{font-size: 24px; margin-bottom: 25px; font-weight: 500;}
+p {margin-bottom: 25px; line-height:1.7; font-size: 18px; font-weight: 400; color: #000; }
+a{ color: #000; }
+
+.navbar,.navbar-right,img{-webkit-transition: all 0.4s linear; -moz-transition: all 0.4s linear; -ms-transition: all 0.4s linear; transition: all 0.4s linear;}
+.section {padding:85px 0;}
+.section h1, .section h2, .section h3 { line-height: 1.1; }
+
+a img{ display: inline-block; vertical-align: middle;}
+ul{padding-left: 0; margin-bottom: 0;}
+.btm-brdr h3 , .btm-brdr h2{padding-bottom: 20px; position: relative;}
+.btm-brdr h3::before , .btm-brdr h2::before{content: ''; position: absolute; left: 0; width: 60px; bottom: 0; height: 4px; background-color:#3e36c5 ; border-radius: 6px;}
+.btm-brdr h2::before{left: 0; right: 0; margin: 0 auto;}
+
+.btm-line{border-bottom: 1px solid #3FC264;}
+
+.img-figure figure img,
+.navbar-default .navbar-nav li:before,
+a,.pull-right ,.nav-tabs>li>a {transition: all 0.3 ease; -webkit-transition: all 0.3 ease; -o-transition: all 0.3 ease; 
+-moz-transition: all 0.3 ease; -ms-transition: all 0.3 ease; color: inherit; }
+
+a:hover, a:focus {color:#2d9de7; text-decoration: none; }
+img { border: none; vertical-align: top; max-width: 100%; height: auto; }
+img:focus {outline: none; }
+.clear {clear: both; }
+
+
+/*----------- button --------------*/
+.btn{ border:0px; transition: all 0.4s linear; position: relative;
+display: inline-block;padding:14px 30px; font-size: 15px;color:#fff;text-transform: uppercase;  font-family: 'Mulish'; font-weight: 400;
+-webkit-appearance: none;-webkit-appearance: none;-moz-appearance: none;-o-appearance: none; border-radius: 0px;
+-ms-appearance: none;appearance: none; position: relative; z-index: 3; overflow: hidden; background-color: #81B29B;}
+
+.btn:hover,.btn:focus{border-radius: 0px 32px 0px 32px; color: #fff; box-shadow: 0px 0px 0px;}
+.btn:focus{outline: none;}
